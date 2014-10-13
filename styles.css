@@ -1,0 +1,17 @@
+@charset "utf-8";
+body {
+	font-family:"Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+	width:800px;
+}
+h1{
+	font-family:"Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+	font-size:2.0em;
+	color:#777;
+	font-weight:200;
+}
+h3{
+	font-family:"Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+	font-size:2.4em;
+	color:#2666ff;
+	font-weight:300;
+}
