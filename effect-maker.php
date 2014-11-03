@@ -4,7 +4,7 @@
 	 * Plugin URI: http://www.mandomartis.com/products.html
 	 * Description: The Effect Maker allows you to customize JavaScript effects like scrollers, slide shows and messengers with your own texts, fonts and images. No JavaScript development skills are needed. With a few clicks you can start creating your own effects. You can have several customizations of one type of effect in your site. All standard web fonts are supported and if you like you can specify your own custom font if you support it by your HTML/CSS3 setup or template. Effect Maker is a spinoff based on Mandomartis' popular <a href="http://www.effectmaker.com/" target="_blank">desktop software</a>. Get the <a href="http://www.mandomartis.com/products.html" target="_blank">Pro edition</a> for even more effects.
 
-	 * Version: 1.0
+	 * Version: 1.0.1
 	 * Author: Anibal Wainstein, Mandomartis
 	 * Author URI: http://www.mandomartis.com/
 	 * License: See license.txt

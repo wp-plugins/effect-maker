@@ -1,10 +1,10 @@
 === Plugin Name ===
 Contributors: anibalwainstein
 Donate link: http://www.mandomartis.com/
-Tags: effects, extension, javascript, easy insertion, no programming, 
+Tags: announcement, reel, scroll, scroller, Text scroll, effect, effects, extension, javascript, easy insertion, no programming, free scrolling, jquery, ticker, slide shows, slides, widget, images, image, content, embed, flash, gallery, media, photo, photos, picture, pictures, slider, slideshow, posts, show, skins, wordpress slider, themes, responsive, responsive slider, java applets, presentation
 Requires at least: 3.9.1
 Tested up to: 4.0
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -74,6 +74,9 @@ Click on the help button in Effect Maker and check the online FAQ. It will answe
 6. Three inserted Effect Maker effects in one page
 
 == Changelog ==
+
+= 1.0.1 =
+* Reload button feature fixed.
 
 = 1.0 =
 * Initial version containing 5 effects in total
