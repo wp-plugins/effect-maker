@@ -4,7 +4,7 @@
 	 * Plugin URI: http://www.mandomartis.com/products.html
 	 * Description: The Effect Maker allows you to customize JavaScript effects like scrollers, slide shows and messengers with your own texts, fonts and images. No JavaScript development skills are needed. With a few clicks you can start creating your own effects. You can have several customizations of one type of effect in your site. All standard web fonts are supported and if you like you can specify your own custom font if you support it by your HTML/CSS3 setup or template. Effect Maker is a spinoff based on Mandomartis' popular <a href="http://www.effectmaker.com/" target="_blank">desktop software</a>. Get the <a href="http://www.mandomartis.com/products.html" target="_blank">Pro edition</a> for even more effects.
 
-	 * Version: 1.0.1
+	 * Version: 1.0.2
 	 * Author: Anibal Wainstein, Mandomartis
 	 * Author URI: http://www.mandomartis.com/
 	 * License: See license.txt
@@ -60,7 +60,8 @@
    		$results = $wpdb->get_results( 'SELECT * FROM '.$table_name);
 		$count=0;
 		$effectmakerpluginfolder=plugins_url().'/'. dirname(plugin_basename(__FILE__)).'/';
-		$effectmakerworkfolder=wp_upload_dir()['baseurl'].'/';
+		$upload_dir = wp_upload_dir();
+		$effectmakerworkfolder=$upload_dir['baseurl'].'/';
 		$context="<SELECT id=\"effectmaker_configurations\">";
 		foreach ( $results as $result ) 
 		{
@@ -107,7 +108,8 @@
 		wp_register_script( 'effectmaker-app', plugins_url('App.js',__FILE__));
 		wp_enqueue_script( 'effectmaker-app' );
 		$effectmakerpluginfolder=plugins_url().'/'. dirname(plugin_basename(__FILE__)).'/';
-		$effectmakerworkfolder=wp_upload_dir()['baseurl'].'/';
+		$upload_dir = wp_upload_dir();
+		$effectmakerworkfolder=$upload_dir['baseurl'].'/';
 		?>
     <script type="text/javascript">
 		//general EM stuff
@@ -170,7 +172,8 @@
 			$count++;
 		}
 		$effectmakerpluginfolder=plugins_url().'/'. dirname(plugin_basename(__FILE__)).'/';
-		$effectmakerworkfolder=wp_upload_dir()['baseurl'].'/';
+		$upload_dir = wp_upload_dir();
+		$effectmakerworkfolder=$upload_dir['baseurl'].'/';
 		?>
         var pluginsUrl='<?php echo $effectmakerpluginfolder; ?>';
 		var uploadsURL='<?php echo $effectmakerworkfolder; ?>';
