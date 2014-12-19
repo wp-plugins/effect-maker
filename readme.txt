@@ -1,10 +1,10 @@
 === Plugin Name ===
 Contributors: anibalwainstein
-Donate link: http://www.mandomartis.com/
+Donate link: http://www.effectmaker.com/buyit.html
 Tags: announcement, reel, scroll, scroller, Text scroll, effect, effects, extension, javascript, easy insertion, no programming, free scrolling, jquery, ticker, slide shows, slides, widget, images, image, content, embed, flash, gallery, media, photo, photos, picture, pictures, slider, slideshow, posts, show, skins, wordpress slider, themes, responsive, responsive slider, java applets, presentation
 Requires at least: 3.9.1
-Tested up to: 4.0
-Stable tag: 1.0.2
+Tested up to: 4.1
+Stable tag: 1.0.3
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -12,15 +12,15 @@ Extend Wordpress with this JavaScript web effect creation system.
 
 == Description ==
 
-The Effect Maker allows you to customize JavaScript effects like scrollers, slide shows and messengers with your own texts, fonts and images. No JavaScript development skills are needed. With a few clicks you can start creating your own effects. You can have several customizations of one type of effect in your site. All standard web fonts are supported and if you like you can specify your own custom font if you support it by your HTML/CSS3 setup or template. Effect Maker is a spinoff based on Mandomartis' popular [desktop software with the same name](http://www.effectmaker.com/). Get the [Pro edition](http://www.mandomartis.com/products.html) for even more effects.
+The Effect Maker allows you to customize JavaScript effects like scrollers, slide shows and messengers with your own texts, fonts and images. No JavaScript development skills are needed. With a few clicks you can start creating your own effects. You can have several customizations of one type of effect in your site. All standard web fonts are supported and if you like you can specify your own custom font if you support it by your HTML/CSS3 setup or template. To see the effects in action [look at our gallery](http://www.effectmaker.com/effectgallery/). Get the [Pro edition](http://www.effectmaker.com/buyit.html) for even more effects.
 
 The following effects are included:
 
-- Image Scroller - Scroll a selection of images vertically or horizontally
-- Horizontal Scroller - a ticker effect with side fading
-- Vertical Scroller - a vertical ticker effect width side fading
-- Image Fader - a simple slide show that fades images into each other
-- Text Fader - a messenger where texts are fading into each other
+- [Image Scroller](http://www.effectmaker.com/effectgallery/imagescroller/) - Scroll a selection of images vertically or horizontally
+- [Horizontal Scroller](http://www.effectmaker.com/effectgallery/horizontalscroller/) - a ticker effect with side fading
+- [Vertical Scroller](http://www.effectmaker.com/effectgallery/verticalscroller/) - a vertical ticker effect width side fading
+- [Image Fader](http://www.effectmaker.com/effectgallery/imagefader/) - a simple slide show that fades images into each other
+- [Text Fader](http://www.effectmaker.com/effectgallery/textfader/) - a messenger where texts are fading into each other
 
 Effect Maker is integrated into Wordpress as a plugin. It inserts an option in the administration menu which you click to create your configurations. Configurations are saved in the wordpress database. Images and media are selected from the standard Wordpress media gallery.
 
@@ -58,7 +58,7 @@ Make sure that the images you have specified really exist in your upload folder 
 
 = How do I get more effects in my Effect Maker library? =
 
-If you have the basic edition which is the free, upgrade to the [pro edition](http://www.mandomartis.com/products.html) which has many more effects!
+If you have the basic edition which is free, upgrade to the [pro edition](http://www.effectmaker.com/buyit.html) which has many more effects!
 
 = I have other questions! =
 
@@ -74,6 +74,9 @@ Click on the help button in Effect Maker and check the online FAQ. It will answe
 6. Three inserted Effect Maker effects in one page
 
 == Changelog ==
+
+= 1.0.3 =
+* Tested and works for Wordpress version 4.1
 
 = 1.0.2 =
 * Site breaking bug fixed which affected sites running earlier PHP versions.
