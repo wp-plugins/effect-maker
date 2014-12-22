@@ -4,6 +4,19 @@
     <Data>
       <Rows>
         <Row>
+          <Field Name="Title">rotatinggallery</Field>
+          <Field Name="Content"></Field>
+          <Field Name="Configuration">
+          </Field>
+          <Field Name="DefaultValues">
+          </Field>
+          <Field Name="Category1">Galleries</Field>
+          <Field Name="DescriptiveName">Rotating Gallery</Field>
+          <Field Name="Icon">rotatinggalleryicon.png</Field>
+          <Field Name="Description1">The classic Rotating Gallery effect which has been so popular with our users.</Field>
+          <Field Name="BrowserSupport">all</Field>
+        </Row>
+        <Row>
           <Field Name="Title">imagefader</Field>
           <Field Name="Content"></Field>
           <Field Name="Configuration">

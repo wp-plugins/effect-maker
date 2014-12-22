@@ -1,7 +1,8 @@
 /*
+ * Effect from the Effect Maker product, http://www.effectmaker.com/
  * Copyright (c) 2014 Anibal Wainstein, Mandomartis
  * This file is subject to the terms and conditions defined in
- * file 'LICENSE.txt', which is part of this source code package.
+ * file 'LICENSE.txt', which is part of this product package.
  */
 var _01_hasBeenInitialized = false;
 var _01_currentItem = 0;
@@ -30,16 +31,6 @@ _01_init = function () {
         	else _01_urls[i] = null;
     	}
 	}
-   	for (var i = 0; i < _01_images.length; i++) 
-	{
-   	    _01_imageWidths[i] = $('#_01_image' + i).width();
-   	    _01_imageHeights[i] = $('#_01_image' + i).height();
-   	    $('#_01_image' + i).css('left', '50%');
-   	    $('#_01_image' + i).css('top', '50%');
-   	    $('#_01_image' + i).css('margin-left', parseInt(-_01_imageWidths[i] / 2) + 'px');
-   	    $('#_01_image' + i).css('margin-top', parseInt(-_01_imageHeights[i] / 2) + 'px');
-   	    $('#_01_image' + i).css('display', 'none');
-	}
 	_01_intervalHandle=setInterval(function () { _01_preloadImages() }, 50);
 }
 
@@ -56,12 +47,12 @@ function _01_preloadImages()
 		{
 		    _01_imageWidths[i] = $('#_01_image' + i).width();
 		    _01_imageHeights[i] = $('#_01_image' + i).height();
-		    $('#_01_image' + i).css('left', '50%');
-		    $('#_01_image' + i).css('top', '50%');
+		    $('#_01_image' + i).css('left', Math.floor(_01_effectwidth / 2 ) + "px");
+		    $('#_01_image' + i).css('top', Math.floor(_01_effectheight / 2 ) + "px");
 		    $('#_01_image' + i).css('margin-left', parseInt(-_01_imageWidths[i] / 2) + 'px');
 		    $('#_01_image' + i).css('margin-top', parseInt(-_01_imageHeights[i] / 2) + 'px');
 		    $('#_01_image' + i).hide();
-		}
+        }
 		$('#_01_image' + _01_currentItem).css('visibility', 'visible');
 		$('#_01_image' + _01_currentItem).fadeIn(parseInt(10000 / _01_fadespeed), function () { _01_fadeInCompleted = true; });
 		_01_intervalHandle=setInterval(function () { _01_animate() }, 25);
@@ -134,7 +125,6 @@ function _01_animate() {
 		if (_01_fadeOutCompleted)
 		{
 			_01_fadeOutCompleted=false;
-			//$('#image'+_01_currentItem).css('visibility','hidden');
 			_01_currentItem++;
 			if (_01_currentItem >= _01_images.length) _01_currentItem = 0;
 			$('#_01_image' + _01_currentItem).css('visibility', 'visible');

@@ -4,7 +4,7 @@ Donate link: http://www.effectmaker.com/buyit.html
 Tags: announcement, reel, scroll, scroller, Text scroll, effect, effects, extension, javascript, easy insertion, no programming, free scrolling, jquery, ticker, slide shows, slides, widget, images, image, content, embed, flash, gallery, media, photo, photos, picture, pictures, slider, slideshow, posts, show, skins, wordpress slider, themes, responsive, responsive slider, java applets, presentation
 Requires at least: 3.9.1
 Tested up to: 4.1
-Stable tag: 1.0.3
+Stable tag: 1.1.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -16,6 +16,7 @@ The Effect Maker allows you to customize JavaScript effects like scrollers, slid
 
 The following effects are included:
 
+- [Rotating Gallery](http://www.effectmaker.com/effectgallery/rotatinggallery/) - rotate your images around in a carousel giving them a real 3D feeling
 - [Image Scroller](http://www.effectmaker.com/effectgallery/imagescroller/) - Scroll a selection of images vertically or horizontally
 - [Horizontal Scroller](http://www.effectmaker.com/effectgallery/horizontalscroller/) - a ticker effect with side fading
 - [Vertical Scroller](http://www.effectmaker.com/effectgallery/verticalscroller/) - a vertical ticker effect width side fading
@@ -28,7 +29,7 @@ Your effects can then easily be inserted into your posts by specifying the locat
 
 Multiple configurations effects are supported in a single wordpress site, thanks to the JavaScript instancing technology in Effect Maker.
 
-Internet Explorer 9.0, Chrome and Firefox supported. Some effects may work on earlier versions of Internet Explorer down to version 8.0.
+Internet Explorer 9.0, Chrome, Opera and Firefox supported. Some effects may work on earlier versions of Internet Explorer down to version 8.0.
 
 == Installation ==
 
@@ -58,7 +59,7 @@ Make sure that the images you have specified really exist in your upload folder 
 
 = How do I get more effects in my Effect Maker library? =
 
-If you have the basic edition which is free, upgrade to the [pro edition](http://www.effectmaker.com/buyit.html) which has many more effects!
+If you have the basic edition which is the free, upgrade to the [pro edition](http://www.mandomartis.com/products.html) which has many more effects!
 
 = I have other questions! =
 
@@ -75,11 +76,19 @@ Click on the help button in Effect Maker and check the online FAQ. It will answe
 
 == Changelog ==
 
+= 1.1.1 =
+* Added the new effect Rotating Gallery (now a total of 6 effects)
+* Bug when displaying too many effects in a category fixed and horizontal category bar is now displaying tooltips
+* Bug in single file fields fixed which was causing empty values to be generated
+* Added support for constant fields (not customizable by the user) which were needed for effects using support images
+* Added feature to check for new images added into the media library every 15 seconds
+* Centering bug in Image Fader fixed
+
 = 1.0.3 =
 * Tested and works for Wordpress version 4.1
 
 = 1.0.2 =
-* Site breaking bug fixed which affected sites running earlier PHP versions.
+* Site breaking bug fixed which could affected sites running earlier PHP versions.
 
 = 1.0.1 =
 * Reload button feature fixed.
