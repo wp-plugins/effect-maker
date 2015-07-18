@@ -4,6 +4,58 @@
     <Data>
       <Rows>
         <Row>
+          <Field Name="Title">shuffleshow</Field>
+          <Field Name="Content"></Field>
+          <Field Name="Configuration">
+          </Field>
+          <Field Name="DefaultValues">
+          </Field>
+          <Field Name="Category1">Slide Shows</Field>
+          <Field Name="DescriptiveName">Shuffle Show</Field>
+          <Field Name="Icon">shuffleshowicon.png</Field>
+          <Field Name="Description1">Shuffle your slides like a card deck with this effect</Field>
+          <Field Name="BrowserSupport">all</Field>
+        </Row>
+         <Row>
+          <Field Name="Title">scramblemessage</Field>
+          <Field Name="Content"></Field>
+          <Field Name="Configuration">
+          </Field>
+          <Field Name="DefaultValues">
+          </Field>
+          <Field Name="Category1">Messengers</Field>
+          <Field Name="DescriptiveName">Scramble Message</Field>
+          <Field Name="Icon">scramblemessageicon.png</Field>
+          <Field Name="Description1">Your message is hurrying to scramble in and out</Field>
+          <Field Name="BrowserSupport">all</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">fallingtext</Field>
+          <Field Name="Content"></Field>
+          <Field Name="Configuration">
+          </Field>
+          <Field Name="DefaultValues">
+          </Field>
+          <Field Name="Category1">Messengers</Field>
+          <Field Name="DescriptiveName">Falling Text</Field>
+          <Field Name="Icon">fallingtexticon.png</Field>
+          <Field Name="Description1">Your message is falling down!</Field>
+          <Field Name="BrowserSupport">all</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">waterdropshow</Field>
+          <Field Name="Content"></Field>
+          <Field Name="Configuration">
+          </Field>
+          <Field Name="DefaultValues">
+          </Field>
+          <Field Name="Category1">Slide Shows</Field>
+          <Field Name="DescriptiveName">Water Drop Show</Field>
+          <Field Name="Icon">waterdropshowicon.png</Field>
+          <Field Name="Description1">Let drops of water fall on your slides with one big splash showing the next.</Field>
+          <Field Name="BrowserSupport">all</Field>
+        </Row>
+        <Row>
           <Field Name="Title">rotatinggallery</Field>
           <Field Name="Content"></Field>
           <Field Name="Configuration">

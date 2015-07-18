@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014 Anibal Wainstein, Mandomartis
+ * Copyright (c) 2014-2015 Anibal Wainstein, Mandomartis
  * This file is subject to the terms and conditions defined in
  * file 'LICENSE.txt', which is part of this source code package.
  */

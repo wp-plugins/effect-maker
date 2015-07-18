@@ -3,8 +3,8 @@ Contributors: anibalwainstein
 Donate link: http://www.effectmaker.com/buyit.html
 Tags: announcement, reel, scroll, scroller, Text scroll, effect, effects, extension, javascript, easy insertion, no programming, free scrolling, jquery, ticker, slide shows, slides, widget, images, image, content, embed, flash, gallery, media, photo, photos, picture, pictures, slider, slideshow, posts, show, skins, wordpress slider, themes, responsive, responsive slider, java applets, presentation
 Requires at least: 3.9.1
-Tested up to: 4.1
-Stable tag: 1.1.1
+Tested up to: 4.2.2
+Stable tag: 1.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -22,12 +22,18 @@ The following effects are included:
 - [Vertical Scroller](http://www.effectmaker.com/effectgallery/verticalscroller/) - a vertical ticker effect width side fading
 - [Image Fader](http://www.effectmaker.com/effectgallery/imagefader/) - a simple slide show that fades images into each other
 - [Text Fader](http://www.effectmaker.com/effectgallery/textfader/) - a messenger where texts are fading into each other
+- [Scramble Message](http://www.effectmaker.com/effectgallery/scramblemessage/) - Your message is hurrying to scramble in and out
+- [Falling Text](http://www.effectmaker.com/effectgallery/fallingtext/) - Your message is falling down!
+- [Water Drop Show](http://www.effectmaker.com/effectgallery/waterdropshow/) - Let drops of water fall on your slides with one big splash showing the next.
+- [Shuffle Show] (http://www.effectmaker.com/effectgallery/shuffleshow/) - Shuffle your slides like a card deck with this effect
 
 Effect Maker is integrated into Wordpress as a plugin. It inserts an option in the administration menu which you click to create your configurations. Configurations are saved in the wordpress database. Images and media are selected from the standard Wordpress media gallery.
 
 Your effects can then easily be inserted into your posts by specifying the location in the editor and then clicking on "add effect" with the configuration that you made. An effect icon marks the location of your effect.
 
 Multiple configurations effects are supported in a single wordpress site, thanks to the JavaScript instancing technology in Effect Maker.
+
+Important Note! If you need to integrate the JavaScripts into your Wordpress themes or headers then we recommend using the desktop versions of Effect Maker which generates physical standalone .js files and which you can download [here] (http://www.effectmaker.com/download/).
 
 Internet Explorer 9.0, Chrome, Opera and Firefox supported. Some effects may work on earlier versions of Internet Explorer down to version 8.0.
 
@@ -75,6 +81,10 @@ Click on the help button in Effect Maker and check the online FAQ. It will answe
 6. Three inserted Effect Maker effects in one page
 
 == Changelog ==
+
+= 1.2 =
+* Added four new free effects: Water Drop Show, Scramble Message, Shuffle Show and Falling Text (now a total of 10 effects)
+* Tested and works for Wordpress version 4.2.2
 
 = 1.1.1 =
 * Added the new effect Rotating Gallery (now a total of 6 effects)
