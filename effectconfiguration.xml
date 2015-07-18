@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Effects" OnQuickLaunch="FALSE" TemplateType="100" Url="Lists/Effects" Description="Contains effects used by the Effect Maker Free Edition">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">shuffleshow</Field>
+          <Field Name="Content"></Field>
+          <Field Name="Configuration">
+          </Field>
+          <Field Name="DefaultValues">
+          </Field>
+          <Field Name="Category1">Slide Shows</Field>
+          <Field Name="DescriptiveName">Shuffle Show</Field>
+          <Field Name="Icon">shuffleshowicon.png</Field>
+          <Field Name="Description1">Shuffle your slides like a card deck with this effect</Field>
+          <Field Name="BrowserSupport">all</Field>
+        </Row>
+         <Row>
+          <Field Name="Title">scramblemessage</Field>
+          <Field Name="Content"></Field>
+          <Field Name="Configuration">
+          </Field>
+          <Field Name="DefaultValues">
+          </Field>
+          <Field Name="Category1">Messengers</Field>
+          <Field Name="DescriptiveName">Scramble Message</Field>
+          <Field Name="Icon">scramblemessageicon.png</Field>
+          <Field Name="Description1">Your message is hurrying to scramble in and out</Field>
+          <Field Name="BrowserSupport">all</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">fallingtext</Field>
+          <Field Name="Content"></Field>
+          <Field Name="Configuration">
+          </Field>
+          <Field Name="DefaultValues">
+          </Field>
+          <Field Name="Category1">Messengers</Field>
+          <Field Name="DescriptiveName">Falling Text</Field>
+          <Field Name="Icon">fallingtexticon.png</Field>
+          <Field Name="Description1">Your message is falling down!</Field>
+          <Field Name="BrowserSupport">all</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">waterdropshow</Field>
+          <Field Name="Content"></Field>
+          <Field Name="Configuration">
+          </Field>
+          <Field Name="DefaultValues">
+          </Field>
+          <Field Name="Category1">Slide Shows</Field>
+          <Field Name="DescriptiveName">Water Drop Show</Field>
+          <Field Name="Icon">waterdropshowicon.png</Field>
+          <Field Name="Description1">Let drops of water fall on your slides with one big splash showing the next.</Field>
+          <Field Name="BrowserSupport">all</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">rotatinggallery</Field>
+          <Field Name="Content"></Field>
+          <Field Name="Configuration">
+          </Field>
+          <Field Name="DefaultValues">
+          </Field>
+          <Field Name="Category1">Galleries</Field>
+          <Field Name="DescriptiveName">Rotating Gallery</Field>
+          <Field Name="Icon">rotatinggalleryicon.png</Field>
+          <Field Name="Description1">The classic Rotating Gallery effect which has been so popular with our users.</Field>
+          <Field Name="BrowserSupport">all</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">imagefader</Field>
+          <Field Name="Content"></Field>
+          <Field Name="Configuration">
+          </Field>
+          <Field Name="DefaultValues">
+          </Field>
+          <Field Name="Category1">Slide Shows</Field>
+          <Field Name="DescriptiveName">Image Fader</Field>
+          <Field Name="Icon">imagefadericon.png</Field>
+          <Field Name="Description1">Fade images against each other with this slide show</Field>
+          <Field Name="BrowserSupport">all</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">textfader</Field>
+          <Field Name="Content"></Field>
+          <Field Name="Configuration">
+          </Field>
+          <Field Name="DefaultValues">
+          </Field>
+          <Field Name="Category1">Messengers</Field>
+          <Field Name="DescriptiveName">Text Fader</Field>
+          <Field Name="Icon">textfader.png</Field>
+          <Field Name="Description1">Fade texts against each other with this messenger with multiple lines support</Field>
+          <Field Name="BrowserSupport">all</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">horizontalscroller</Field>
+          <Field Name="Content"></Field>
+          <Field Name="Configuration">
+          </Field>
+          <Field Name="DefaultValues">
+          </Field>
+          <Field Name="Category1">Scrollers</Field>
+          <Field Name="DescriptiveName">Horizontal Scroller</Field>
+          <Field Name="Icon">horizontalscrollericon.png</Field>
+          <Field Name="Description1">This is a ticker or scroller which scrolls your message horizontally</Field>
+          <Field Name="BrowserSupport">all</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">verticalscroller</Field>
+          <Field Name="Content"></Field>
+          <Field Name="Configuration">
+          </Field>
+          <Field Name="DefaultValues">
+          </Field>
+          <Field Name="Category1">Scrollers</Field>
+          <Field Name="DescriptiveName">Vertical Scroller</Field>
+          <Field Name="Icon">verticalscrollericon.png</Field>
+          <Field Name="Description1">This is scroller which scrolls your text upwards</Field>
+          <Field Name="BrowserSupport">all</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">imagescroller</Field>
+          <Field Name="Content"></Field>
+          <Field Name="Configuration">
+          </Field>
+          <Field Name="DefaultValues">
+          </Field>
+          <Field Name="Category1">Scrollers</Field>
+          <Field Name="DescriptiveName">Image Scroller</Field>
+          <Field Name="Icon">imagescrollericon.png</Field>
+          <Field Name="Description1">In this scroller you can scroll your image gallery vertically and horizontally.</Field>
+          <Field Name="BrowserSupport">all</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>
